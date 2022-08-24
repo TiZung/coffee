@@ -59,14 +59,14 @@
   border-bottom: 1px solid #eebf63;
 }
 .header-word-img{
+  position: relative;
+  margin-top: 60px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 100px;
+ 
 }
 .header-word{ 
-  height: 500px;
-  width: 450px;
   display: flex;
   flex-direction:column;
   justify-content: space-evenly;
@@ -77,7 +77,7 @@
 }
 .header-word p{
   color: #fff;
-  line-height: 25px;
+  line-height: 45px;
 }
 .header-word-tg{
   text-align-last: right;
@@ -130,11 +130,15 @@
 .about-us-word-border{
   background-color: #eebf63;
   height: 30px;
-  width: 100px;
+  width: 150px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px 0;
+}
+.about-us-word-border p{
+  font-size: 20px;
 }
 #word2,
 #word3,
