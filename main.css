@@ -14,7 +14,7 @@
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/img/Coffee-Website-Images/bg.png);
+  background-image: url(./img/Coffee-Website-Images/bg.png);
   display: flex;
   flex-direction: column;
 }
