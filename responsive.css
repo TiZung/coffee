@@ -1,0 +1,127 @@
+
+@media only screen and (max-width:739px) {
+    .header-link-logo{
+        display: none;
+    }
+    .header-link-link a{
+        font-size: 15px;
+    }
+    .header-link{
+        height: 60px;
+        justify-content: space-between;
+    }
+     .header-word{
+        width: 100vw;
+        height: 200px;
+        padding: 0 15px 0 15px;
+     }
+     .header-word p{
+        font-size: 15px;
+    }
+    .header-word-img{
+        padding-top: 50px;
+        height: 750px;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+    .header-word h1{
+        font-size: 25px;
+    }
+    .header-word a{ 
+    text-decoration: none;
+    }
+    .header-img{
+        margin-top: 60px;
+    }
+    .header-img img{
+        height: 300px;
+    }
+    .header-word-border{
+        border-radius: 0;
+    }
+    #word1{
+
+    }
+    #word1,
+    #word3,
+    #word2{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20%;
+        top:-28px;
+    }
+    #about-us{
+        margin-top: -20px;
+        padding: 0px 10px 0px 10px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about-us-img img{
+        height: 300px ;
+        max-width: 330px;
+    }
+    .about-us-word{
+        height: 500px;
+        max-width: 330px;
+    }
+    .about-us-word h1{
+        font-size: 20px;
+    }
+    #products{  
+        margin-top: 15px;
+        padding: 0px 5px 0px 5px;
+        grid-template-columns:1fr;
+        grid-template-rows:400px 400px 400px;
+        row-gap: 10px;
+    }
+.customes__box__img{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+    .customes__box__img img{
+        height: 150px;
+        width: 100px;
+    }
+    #customes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .customes__box{
+        height: 400px;
+        width: 350px;
+        grid-template-areas: "img img"
+                               "conten conten";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 150px 1fr ;
+        margin-bottom:20px;
+    }
+    .customes__box__content{
+        text-align: center;
+        justify-content: center;
+    }
+    .kma__end{
+        display: none;
+    }
+   
+    #footer{
+        grid-template-areas: "shop"
+                             "support"
+                             "view"
+                             "contact";
+        grid-auto-rows:minmax(auto,180px);
+        row-gap:10px;
+        padding: 0px 10px 0 10px;
+    }
+    #border{
+       margin-top: -20px;
+    }
+}
+
+@media only screen and (min-width:740px) and (max-width:1023px){
+    
+}
