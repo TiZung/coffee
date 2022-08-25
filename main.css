@@ -211,7 +211,9 @@
 .customes__box{
   height: 400px;
   width: 500px;
-  background-color:  rgb(243, 240, 237);;
+  border-radius: 10px;
+  box-shadow: #e9e3e3;
+  background-color:  rgb(243, 240, 237);
   display: grid;
   grid-template-areas: "img conten";
   grid-template-columns: 2fr 3fr;
@@ -292,7 +294,13 @@
 .support{
   grid-area: support;
 }
-
+.contact p,
+.view p,
+.support p{
+  transition-property: all;
+  transition-duration: 450ms;
+  transition-timing-function: ease;
+}
 .view{
   grid-area: view;
 }
@@ -319,6 +327,16 @@
   height: 3px;
   width: 100vw;
   background-color: #eebf63;
+}
+
+.support p:hover{
+  color: #eebf63;
+}
+.view p:hover{
+  color: #eebf63;
+}
+.contact p:hover{
+  color: #eebf63;
 }
 
 
